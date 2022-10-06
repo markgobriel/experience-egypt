@@ -110,7 +110,10 @@ header .navigation .navigation-items a:hover{
   display: block;
 }
 
-.lang-select:hover .languages {display: block;}
+.lang-select:hover .languages {
+  display: block;
+
+}
 
 
 section{
@@ -477,16 +480,16 @@ transition: 0.3s;
 
   }
 
+
   
- 
-  
-  /* Anything udner 1024px */
   @media screen and (max-width: 1024px) {
     .image-grid {
       --num-cols: 2;
       --row-height: 200px;
+      
     }
-  }
+    
+  } 
 
 
 .newsletter-container{
@@ -496,24 +499,24 @@ transition: 0.3s;
   flex-wrap: wrap;
 }
 
-container.picture{
-  width: 1777px;
-  height: 1333px;
-  overflow: hidden;
-}
-
 .picture{
   width: 50%;
+  max-width: 50%;
   background: url(img/bg.jpg) no-repeat center;
   background-size: cover;
   background-position: center;
   transition: all 0.3s;
+  overflow:hidden;
 }
 
 
-.picture:hover {
-  transform:scale(1.2);
-}
+
+
+
+
+
+
+
 
 
 .newsletter{

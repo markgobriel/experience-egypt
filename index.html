@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visit Egypt</title>
+    <title>Visit Egypt: The Mother of the World</title>
     <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   </head>
 
@@ -135,7 +136,7 @@
             <h4>contact</h4>
             <ul>
               <li><a href="mailto:info@visitegypt.com">info@visitegypt.com</a></li>
-              <li><a href="tel:647-745-2365">+1 (647)-745-2365</a></li>
+              <li><a href="tel:647-745-2365">+01206738210</a></li>
             
             </ul>
           </div>
@@ -155,49 +156,6 @@
       <p class="copyright">All rights reserved. &copy; 2022 Experience Egypt</p>
 
    </footer>
-
-   
-    
-    <script type="text/javascript">
-    //Javacript for responsive navigation menu
-    const menuBtn = document.querySelector(".menu-btn");
-    const navigation = document.querySelector(".navigation");
-
-    menuBtn.addEventListener("click", () => {
-      menuBtn.classList.toggle("active");
-      navigation.classList.toggle("active");
-    });
-
-    //Javacript for video slider navigation
-    const btns = document.querySelectorAll(".nav-btn");
-    const slides = document.querySelectorAll(".video-slide");
-    const contents = document.querySelectorAll(".content");
-
-    var sliderNav = function(manual){
-      btns.forEach((btn) => {
-        btn.classList.remove("active");
-      });
-
-      slides.forEach((slide) => {
-        slide.classList.remove("active");
-      });
-
-      contents.forEach((content) => {
-        content.classList.remove("active");
-      });
-
-      btns[manual].classList.add("active");
-      slides[manual].classList.add("active");
-      contents[manual].classList.add("active");
-    }
-
-    btns.forEach((btn, i) => {
-      btn.addEventListener("click", () => {
-        sliderNav(i);
-      });
-    });
-
-    </script>
 
   </body>
 </html>
