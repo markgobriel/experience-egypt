@@ -35,3 +35,6 @@
       sliderNav(i);
     });
   });
+
+
+  console.log('I just ran')
