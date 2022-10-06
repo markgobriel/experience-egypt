@@ -252,7 +252,7 @@ section{
 }
 
 .slider-navigation .nav-btn:hover{
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 
 .video-slide{
@@ -263,7 +263,7 @@ section{
 
 .video-slide.active{
   clip-path: circle(150% at 0 50%);
-  transition: 0.7s ease;
+  transition: 1.2s ease;
   transition-property: clip-path;
 }
 
