@@ -36,5 +36,3 @@
     });
   });
 
-
-  console.log('I just ran')
