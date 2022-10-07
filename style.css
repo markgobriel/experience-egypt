@@ -439,7 +439,7 @@ transition: 0.3s;
 
 @media screen and (max-width: 1024px) {
   .image-grid {
-    --num-cols: 2;
+    --num-cols: 3;
     --row-height: 200px;
 
     overflow:hidden;
@@ -484,14 +484,15 @@ transition: 0.3s;
   }
   
   .image-grid-col-2 {
-    grid-column: span 2;
+    grid-column: span 1;
     overflow:hidden;
     display:inline-block;
 
   }
   
   .image-grid-row-2 {
-    grid-row: span 2;
+    grid-row: span 1;
+    overflow: hidden;
 
 
 
@@ -499,8 +500,6 @@ transition: 0.3s;
 
   .image-grid >img:hover {
     transform: scale(1.2);
-    transform-origin: 50% 50%;
-    overflow:hidden;
     object-fit: cover;
   }
 
