@@ -434,45 +434,60 @@ transition: 0.3s;
 
   font-weight: 300;
   font-size: 1.2em;
-  color: #24262b;
+  color: #000000;
 
 }
-/* 
+
+.ig .visit-socials a{
+	display: inline-block;
+	height: 70px;
+	width: 60px;
+	margin:0 10px 20px 0;
+	text-align: center;
+	line-height: 100px;
+	color: #b5b5b5;
+	transition: all 0.5s ease;
+  font-size: 1.6em;
+
+}
+.ig .visit-socials a:hover{
+  /* transform: scale(1.3); */
+  color: #FABB18;
+}
+
+
 @media screen and (max-width: 1024px) {
   .image-grid {
+
     --num-cols: 3;
     --row-height: 200px;
 
-    overflow: hidden;
-
   }
   
-}  */
+} 
 
   .image-grid {
-
-    overflow: hidden;
-
 
     --gap: 10px;
     --num-cols: 4;
     --row-height: 300px;
 
-    /* height: 100%;
+    height: 100%;
     width: 100%;
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
-   */
-    box-sizing: border-box;
-    padding: var(--gap);
   
+    box-sizing: border-box;
+
+    padding: var(--gap);
     display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
     grid-auto-rows: var(--row-height);
     gap: var(--gap);
- 
-
+    
+    overflow: hidden;
+   
   }
 
   .image-grid > img {
@@ -480,13 +495,14 @@ transition: 0.3s;
     height: 100%;
     max-width: 100%;
     max-height: 100%;
-    transition: 0.3s ease;
+    transition: 0.5s ease-in-out;
     object-fit: cover;
-    overflow: hidden;
+    transform: scale(1);
+
   
   }
 
-  /* .image-grid-col-2 {
+  .image-grid-col-2 {
     grid-column: span 1;
     object-fit: cover;
     overflow: hidden;
@@ -501,18 +517,16 @@ transition: 0.3s;
 
 
 
-  }  */
+  } 
 
   .image-grid >img:hover {
-    transform: scale(1.2);
+
+
+    
+    transform: scale(1.2)
+    
  
   }
-
-
-
-
-
-
 
 
 .newsletter-container{
@@ -528,19 +542,7 @@ transition: 0.3s;
   background: url(img/bg.jpg) no-repeat center;
   background-size: cover;
   background-position: center;
-  transition: all 0.3s;
-  overflow:hidden;
 }
-
-
-
-
-
-
-
-
-
-
 
 .newsletter{
  width: 50%;
