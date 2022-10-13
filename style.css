@@ -519,16 +519,6 @@ transition: 0.3s;
 
   } 
 
-  .image-grid >img:hover {
-
-
-    
-    transform: scale(1.2)
-    
- 
-  }
-
-
 .newsletter-container{
   background-color: #f1f1f1;
   width: 100%;
