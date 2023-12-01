@@ -359,63 +359,6 @@ ul{
 	list-style: none;
 }
 
-.covid {
-
-  background-color: #f1f1f1;
-  position: relative;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.covid h7 {
-
-font-weight: 800;
-font-size: 40px;
-text-transform: uppercase;
-margin-bottom: 10px;
-color: #24262b;
-
-}
-
-.covid h7 span {
-
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FABB18 50%);
-}
-
-.covid p {
-
-font-weight: 400;
-font-size: 20px;
-margin-bottom: 20px;
-color: #24262b;
-}
-
-.covid a {
-
-text-decoration: none;
-color: #24262b;
-background: #FABB18;
-padding: 10px;
-font-size: 20px;
-font-weight: 900;
-transition: 0.3s;
-
-
-}
-
-.covid a:hover {
-
-  text-decoration: none;
-  color: #FABB18;
-  background: none;
-  padding: 10px;
-  font-size: 20px;
-  font-weight: 900;
-  transform: scale(1.2);
-  
-  }
-
 .ig {
 
   padding: 50px 20px;
